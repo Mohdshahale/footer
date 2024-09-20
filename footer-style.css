@@ -15,6 +15,7 @@
             border-top-left-radius: 55px;
             border-top-right-radius: 55px;
             color: #CE1212;
+           
 
         }
         .footer-head{
@@ -32,6 +33,7 @@
             width: 50px;
             height: 50px;
         }
+       
         .aboutus-font{
             font-size: 20px;
             font-weight: bold;
@@ -39,12 +41,15 @@
         }
         .footer-about{
             display: flex;
-            flex-wrap: wrap;
+            
             justify-content: center;
             gap: 70PX;
             font-family: inter;
             font-weight: bold;
             color: #1b1717; 
+        }
+        .footer-values:hover{
+            cursor: pointer;
         }
         .footer-img{
             display: flex;
@@ -60,6 +65,9 @@
             width: 65px;
          
         }
+        .footer-insta:hover{
+            cursor: pointer;
+        }
         .footer-jdt{
             display: flex;
             flex:1;
@@ -70,6 +78,9 @@
         }
         .footer-clg{
             width: 120px;
+        }
+        .footer-clg:hover{
+            cursor: pointer;
         }
         .footer-add{
             display: flex;
@@ -85,7 +96,10 @@
         .special-char{
             color: #CE1212;
         }
-
+        .special-char:hover{
+            cursor: pointer;
+            text-decoration: underline;
+        }
 
 
 
