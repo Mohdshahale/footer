@@ -26,9 +26,6 @@
             flex:1;
             justify-content: center;
             align-items: center;
-            
-            vertical-align: auto;
-            min-width: 400px;
 
         }
         .footer-logo{
@@ -44,7 +41,7 @@
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
-            gap: 100PX;
+            gap: 70PX;
             font-family: inter;
             font-weight: bold;
             color: #1b1717; 
